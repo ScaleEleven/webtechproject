@@ -28,11 +28,10 @@
 
               <!-- Fetching entries via php -->
               <?php
-                $sql = "SELECT Name FROM Project.University ORDER BY Name ASC;";
+                $sql = "SELECT Name FROM University ORDER BY Name ASC;";
                 $universities = $conn->query($sql);
-
                 while($row = $universities->fetch_assoc()) {
-                echo "<li><a href=#>$row[Name]</a></li>";
+                echo '<li><a href=#>'.$row['Name'].'</a></li>';
                 }
               ?>
                 

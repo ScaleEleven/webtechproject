@@ -54,7 +54,8 @@
 						<div class="search">
 						  
 						  Search lecture
-						  <input type="search">
+						  <input type="search" /><br />
+						  <a href="#"><small>Advanced search...</small></a>
 						</div>
 
 
@@ -85,6 +86,10 @@
             </div>
         </div>
 
+        <?php
+		include("footer.php");
+		?>
+        
     </div> <!-- /container -->
 
 
