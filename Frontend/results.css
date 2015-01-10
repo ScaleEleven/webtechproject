@@ -40,9 +40,9 @@
 	padding-bottom:10px;
 	border: 1px solid #383737;
 	
-	background-color: #3d3d3d;
+	background-color: #3d3d3d;	
 	color:white;
-	height:190px;   /* CHANGE BOX HEIGHT HERE */
+	height:150px;   /* CHANGE BOX HEIGHT HERE */
 }
 
 .dash-unit:hover {
@@ -72,8 +72,10 @@
 	padding-left:5px;
 	text-align:center;
 
-		
 	}
+rating {
+	padding-left:13px;
+}
 	
 .dash-unit hr {
   	border: 0;
