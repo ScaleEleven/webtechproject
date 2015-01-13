@@ -1,0 +1,408 @@
+	body {
+
+		/*background: url(img/sk8.jpg) no-repeat center center fixed;*/
+		background: url(img/verschwommen.jpg) no-repeat center center fixed;
+		/*-webkit-filter: blur(15px);*/
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding-top: 60px;
+
+	}
+	@media (max-width: 980px) {
+		body {
+			padding-top: 0;
+		}
+	}
+
+	#container1 {
+		/*background-color: #e2dada;*/
+
+	}
+
+
+	.centered-form {
+		margin-bottom: 120px;
+	}
+
+	.centered-form .panel {
+		background: rgba(255, 255, 255, 0.8);
+		box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+	}
+
+	/***********BLOCKS & WRAPS***********/
+
+	/*--- Dash Unit / Used in Dashboard page ---*/
+
+
+
+
+	.dash-unit {		
+		margin-bottom: 30px;
+		padding-bottom:10px;
+		border: 1px solid #383737;
+
+		background-color: #3d3d3d;	
+		color:white;
+		height:150px;   /* CHANGE BOX HEIGHT HERE */
+	}
+
+	.dash-unit:hover {
+		background-color: #4f4f4f;
+		-moz-box-shadow:    3px 3px 2px 0px #151515;
+		-webkit-box-shadow: 3px 3px 2px 0px #151515;
+		box-shadow:         3px 3px 2px 0px #151515;
+
+	}
+
+	.dash-unit ratings{
+		font-size:12px;
+
+		color:#000000;
+		margin:8px;
+		padding-left:5px;
+		text-align:center;
+
+	}
+
+	.dash-unit tags{
+
+		font-size:12px;
+
+		color:#ffffff;
+		margin:8px;
+		padding-left:5px;
+		text-align:center;
+
+	}
+	rating {
+		padding-left:13px;
+	}
+	
+	.dash-unit hr {
+		border: 0;
+		border-top: 1px solid #151515;
+		border-top-style: dashed;
+		margin-top:3px;
+	}
+
+	.dash-unit h1 {
+
+		padding-top:10px;
+		padding-left:5px;
+		margin-top:2px;
+		text-align:center;
+	}
+
+	.dash-unit h2 {
+
+		padding-top:10px;
+		padding-left:5px;
+		margin-top:2px;
+		text-align:center;
+	}
+
+
+	.dash-unit h3 {
+
+		padding-top:10px;
+		padding-left:5px;
+		margin-top:2px;
+		text-align:center;
+	}
+
+
+	.dash-unit p {
+		font-size: 14px;
+		font-weight: 200;
+		line-height: 16px;
+		color: inherit;
+		margin: 0 0 10px;
+		padding:5px;
+	}
+
+	.dash-unit h4 {
+		padding-left:5px;
+		margin-top:2px;
+		font-size: 13px;
+		font-weight:lighter;
+		line-height: 1;
+		letter-spacing: 0px;
+		color: #fff;
+	}
+
+	.dash-unit bold{
+
+		font-size:26px;
+		font-weight:bold;
+		color:#fff;
+		vertical-align:middle;
+	}
+
+
+
+	/**********Styling Elements**********/   
+	.cont {
+		text-align:center;
+		margin-top:30px;
+	}
+
+	.cont ok {
+		color:#b2c831;
+	}
+
+	.cont bad {
+		color:#fa1d2d;
+	}
+
+	.cont2 {
+		text-align:center;
+		margin-top:-15px;
+		font-size:12px;
+		line-height:7px;
+	}
+
+	.cont2 bold{
+		font-size:10px;
+		font-weight:bold;
+		color:#b2c831
+	}
+
+	.text p {
+		font-family: 'Open Sans', sans-serif;
+		margin-left:8px;
+		font-size:14px;
+		line-height:18px;
+	}
+
+	.text grey {
+		font-size:11px;
+		color:silver
+	}
+
+
+	/***********Bootstrap Default Modifications***********/
+
+	/***********LineIcons Styles***********/
+
+
+	.info-user {
+		text-align:center;
+		font-size: 24px;
+		color: #b2c831;
+	}
+
+	.fs1 {
+		padding:5px 5px 5px 5px;
+		position:relative;
+	}
+
+	.fs1:hover {
+		position:relative;
+		color: #fff;
+		cursor:pointer
+	}
+
+	.fs2 {
+		padding:5px 5px 5px 5px;
+		position:relative;
+		font-size:35px;
+		vertical-align: text-bottom
+	}
+
+	/**********Clock Configuration**********/   
+
+	digiclock {
+		font-size: 30px;
+		color: #fff;
+		text-align: center;
+		line-height: 60px;
+		margin-left: auto	
+	}
+
+	.clockcenter {
+		text-align:center;
+	}
+
+	/**********LINE AND BARS**********/
+
+	.section-graph {
+		position: relative;
+		height: 130px;
+		color: #fff;
+		background-image: linear-gradient(color-stops(#b2c831, #b2c831 50%, #b2c831 50%));
+		margin-bottom:20px;
+	}
+	.section-graph .graph-info {
+		z-index: 99;
+		position: absolute;
+		font-weight: bold;
+		margin-top: 12px;
+		margin-left: 21px;
+		width: 100px;
+	}
+	.section-graph .graph-info .graph-arrow {
+		width: 0;
+		height: 0;
+		margin-top: 18px;
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-bottom: 4px solid white;
+		float: left;
+	}
+	.section-graph .graph-info .graph-info-big {
+		font-size: 24px;
+		float: left;
+		margin-left: 3px;
+	}
+	.section-graph .graph-info .graph-info-small {
+		margin-left: 3px;
+		font-size: 12px;
+		font-weight: normal;
+		color: rgba(255, 255, 255, 0.5);
+		clear: left;
+		margin-left: 8px;
+	}
+/*
+ * Info Section
+ */
+ .info-aapl {
+ 	text-align: center;
+
+ }
+ .info-aapl ul {
+ 	margin-left:30%;
+
+ }
+ .info-aapl li {
+ 	margin: 0;
+ 	display: block;
+ 	width: 9px;
+ 	height: 40px;
+ 	margin-right: 6px;
+ 	background-color: #f5f0ec;
+ 	float:left;
+ 	position: relative;
+ }
+ .info-aapl li span {
+ 	display: block;
+ 	width: 9px;
+ 	height: 40px;
+ 	position: absolute;
+ 	bottom: 0;
+ }
+ .info-aapl li span.orange {
+ 	background-color: #fa1d2d;
+ }
+ .info-aapl li span.green {
+ 	background-color: #b2c831;
+ }
+
+
+ .fach {
+ 	background-color:black;
+ 	color:white;
+ 	text-align:center;
+ 	padding:5px;
+ }
+ .attr {
+ 	line-height:30px;
+ 	background-color:orange;
+ 	width:20%;
+ 	float:left;
+ 	padding:10px; 
+ }
+ .rate {
+ 	background-color: #aaaaaa;
+ 	width:80%;
+ 	margin-left: 20%;
+ 	text-align: center;
+ 	padding:10px; 
+
+ }
+ .texts {
+ 	background-color:black;
+ 	color:white;
+ 	clear:both;
+ 	text-align:center;
+ 	padding:5px; 
+ }
+
+
+ /* Progressbar Style */
+ 
+/*
+.clickable {
+    border: 2px solid #444;
+    background: #eee;
+    height: 40px;
+    width: 200px;
+    margin: 15px;
+    position: relative;
+}
+.display {
+    height: 16px;
+    position: absolute;
+    width: 100%;
+}
+.progress {
+    position:absolute;
+    left:0;
+    top:0;
+    background:orange;
+    height:40px;
+    width:10px;
+}
+*/
+
+ .clickable {
+ }
+ .display {
+ 	background-color: #555;
+ }
+
+ 
+ .progress {
+ 	background: orange;
+ }
+
+
+
+
+
+ /**********Media Styles**********/   
+
+ @media (max-width: 360px){
+ 	/*Calendar Adsjustments*/
+ 	.fc-header {margin-top:15px;}
+ 	.fc-header-title h2{font-size:10px; }
+ 	.fc-header-right {display:none}
+
+ 	/* portrait tablet */
+ 	@media (min-width: 767px) and (max-width: 768px) {
+ 		.info-aapl ul {
+ 			margin-left:10px;
+ 			float:left;
+ 		}
+
+ 		#load {
+ 			margin-left:5px;
+ 			margin-right:10px;
+ 		}
+
+ 		#space {
+ 			margin-left:5px;
+ 			margin-right:10px;
+ 		}
+
+ 	}
+
+ 	/* Landscape iphone 5 and samsung galaxy */
+ 	@media (min-width: 560px) and (max-width: 685px) {
+ 		.info-aapl ul {
+ 			margin-left:40%;
+ 		}
+
+
+ 	}
