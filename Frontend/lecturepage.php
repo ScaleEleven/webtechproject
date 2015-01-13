@@ -83,35 +83,6 @@
 
   </div>
   
-<!--
-
-<div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Webtechnologies</h4>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-         <rating>Overall rating</rating>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">  
-          60%
-          </div>
-        </div>
-         <rating>Other rating</rating>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">  
-          40%
-          </div>
-        </div>
-
-        
-        <div> 
-          #HTML5 #JSP
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      -->
 
 
     <!-- Bootstrap core JavaScript

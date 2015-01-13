@@ -49,21 +49,6 @@ function initToolTips(){
 }
 
 
-/*
-  window.onload = function(e){
-    $('.clickable').bind('click', function (ev) {
-      var $div = $(this);
-      var $display = $div.find('.display');
-      var $progress = $div.find('.progress');
-
-      var offset = $div.offset();
-      var x = ev.clientX - offset.left;
-
-      //($progress ? $progress.width(x) : $div.width(x));
-      $progress.width(x);
-    });
-  }
-  */
 </script>
 
 <body>
@@ -134,45 +119,7 @@ function initToolTips(){
     </div>       
 
   </div>
-<!--
-    <div class="rate">
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-        <div class='clickable'>
-          <div class='display'>
-            <div class="progress"></div>
-          </div>
-        </div>
-    </div>
-  -->
+
 
   <div class="texts">
 
