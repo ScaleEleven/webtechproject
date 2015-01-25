@@ -4,14 +4,13 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="dropdowns-enhancement.css" rel="stylesheet">
-
-
+	
 </head>
 
 <body>
 
 	<?php
-	include("db.php");
+ 	include("db.php");
 	include("navbar.php");
 	?>
 
